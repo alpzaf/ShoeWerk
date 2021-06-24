@@ -1,6 +1,6 @@
 # ShoeWerk 
-### This project develop on a customer demandings. It's only responsive above 768px 
-#### I practice some technologies which i'am new familiar with like Sass
+### ShoeWerk is a basic e-commerce website. It's only responsive above 768px 
+#### I practiced some technologies which i'm new familiar with like Sass
 
 ## Technologies
 * Bootstrap v3.3.4
