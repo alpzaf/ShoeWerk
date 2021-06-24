@@ -1,0 +1,33 @@
+.banner-privilege{
+    .col-lg-1{
+        width: 0%;
+        padding: 0;
+    }
+}
+.privilege-item{
+    img{
+        width: 10rem;
+    }
+    h2{
+      color: #5a5a5a;
+      font-size: 1.4rem;
+      font-weight: 300;
+      margin: .8rem 0;
+      width: 100%;
+      text-align: center;
+      strong{
+          font-weight: 500;
+      }
+    }
+    span{
+      display: block;
+      color: #5a5a5a;
+      font-size: .9rem;
+      font-weight: 100;
+      text-align: center;
+      margin-bottom: .5rem;
+    }
+    button{
+      margin: .5rem 0;
+    }
+}

@@ -1,0 +1,23 @@
+.hero{
+    position: relative;
+}
+.hero-slider-item{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.hero-article{
+    h1,h3{
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+        margin: .4rem 0;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+}

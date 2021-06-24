@@ -1,0 +1,27 @@
+.banner-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    padding: 1rem;
+    article{
+        z-index: 5;
+        img{
+           width: 6rem;
+           margin: .5rem 0;
+        }
+        h2{
+           text-align: center;
+           color: #fff;
+           margin: .5rem 0;
+        }
+        button{
+           margin: .5rem 0;
+        }
+        span{
+            text-align: center;
+            color: #fff;
+            margin: .5rem 0;
+        }
+    }
+}

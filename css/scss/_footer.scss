@@ -1,0 +1,136 @@
+footer{
+    background: #2e3337;
+    padding: 4rem 1rem;
+    color: #fff;
+    .col-lg-1{
+        width: 6.33333%;
+    }
+    .footer-logo{
+        margin-bottom: 2rem;
+    }
+    .footer-telephone{
+        margin: 1rem 0;
+        .tel-icon{
+            font-size: 1.4rem;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            padding: 0 .5rem;
+            font-size: 1.3rem;
+        }
+    }
+    .newsletter{
+        margin: 3rem 0;
+        width: 55%;
+        .newsletter-input{
+            background: transparent;
+            padding: .5rem .6rem;
+            margin: .5rem 0;
+            border: 1px solid #ffffff73;
+            border-radius: 30px;
+            width: 100%;
+            font-size: 1rem;
+            input{
+                background: none;
+                border: none;
+                color: #fff;
+                font-size: .8rem;
+                &:focus{
+                    outline: none;
+                }
+                &::placeholder{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .social-media-icons{
+        li{
+            padding-right: 1.6rem;
+            a{
+                .icon-font{
+                    font-size: 2rem;
+                    color: #ffffff85;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .footer-ul{
+        li{
+            padding: .7rem 0;
+            a{
+                color: #c8c8c8;
+                text-decoration: none;
+                transition: all 300ms ease-out;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    h2{
+        margin-bottom: 2rem;
+        font-weight: 500;
+    }
+    .randevu{
+        margin-bottom: 2rem;
+        .randevu-icon{
+            margin-right: 5px;
+        }
+        span{
+            color: #c8c8c8;
+        }
+    }
+    .stores{
+        margin: 2rem 0;
+    }
+    .change-language{
+        h2{
+            margin-bottom: 0;
+            a{
+                color: #c8c8c8;
+                margin-bottom: 0;
+                text-decoration: none;
+                cursor: pointer;
+                font-size: .9rem;
+            }
+        }
+        select{
+            background: none;
+            padding: .2rem .1rem;
+            color: #c8c8c8;
+            cursor: pointer;
+            border: 1px solid #c8c8c8;
+            border-radius: 4px;
+            margin: 0 .4rem;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            text-indent: 1px;
+            text-overflow: '';
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
+.footer-bottom{
+    background: #26292e;
+    .payment-methods{
+        padding: 1rem 0;
+        width: 85%;
+        margin: 0 auto;
+        span{
+            color: #ffffff8c;
+        }
+        img{
+            width: 15rem;
+        }
+    }
+}
+select::-ms-expand {
+    display: none;
+}

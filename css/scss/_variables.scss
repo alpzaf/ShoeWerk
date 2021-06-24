@@ -1,0 +1,83 @@
+.d-flex{display: flex;}
+.d-none{display: none;}
+.d-block{display: block !important;}
+.justify-center{justify-content: center;}
+.justify-space{justify-content: space-between;}
+.justify-evenly{justify-content: space-evenly;}
+.justify-end{justify-content: flex-end;}
+.justify-start{justify-content: flex-start;}
+.align-center{align-items: center;}
+.align-start{align-items: flex-start;}
+.align-end{align-items: flex-end;}
+.d-flex-justify-center{display: flex;justify-content: center;}
+.flex-center{display: flex;justify-content: center;align-items: center;}
+.w-100{width: 100%;}
+.w-30{width: 30%;}
+.w-20{width: 20%;}
+.w-cat{width: 18%;}
+.w-15{width: 15%;}
+.h-100{height: 100%;}
+.h-100vh{height: 100vh;}
+.h-auto{height: auto;}
+.pd-h10{padding: 0 10rem;}
+.pd-4{padding: 0 4rem;}
+.mg-v{margin: 2rem 0;}
+.mg-1{margin: 1rem;}
+.mg-3{margin: 3rem 0;}
+.mg-4{margin: 4rem 0;}
+.mg-0{margin: 0;}
+.pd-0{padding: 0;}
+.left-44{left: !important;}
+.pd-divider{padding: 1rem 2rem !important;}
+.fw-bold{font-weight: 700;}
+.f-wrap{flex-wrap: wrap;}
+.f-column{flex-direction: column;}
+.po-re{position: relative;}
+.po-ab{position: absolute;}
+.po-center{position: absolute;top:-25px;background: #fff;}
+.h-1{color:#fff}
+.h-3{color: #fff;}
+.text-center{text-align: center;}
+.size-primary{font-size: 3rem}
+.size-secondary{font-size: 1rem;}
+.border-radius-8{border-radius: var(--border-radius);}
+$md:'only screen and (min-width: 768px) and (max-width: 1024px)';
+@media (min-width:1200px) {
+    .hidden-lg{
+        display: none;
+    }
+    .justify-lg-end{
+        justify-content: flex-end;
+    }
+    .pd-left-20{padding-left: 20px;}
+    .pd-right-20{padding-right: 20px;}
+    .pd-40{padding: 0 40px;}
+}
+@media (max-width:1200px) {
+    .hidden-md{
+        display: none;
+    }
+    .mg-md-1{
+        margin: 1rem 0;
+    }
+    .w-cat{
+        width: 47%;
+    }
+    .justify-lg-end{
+        justify-content: flex-end;
+    }
+    .pd-left-20{padding-left: 20px;}
+    .pd-right-20{padding-right: 20px;}
+    .order1{order: 1}
+    .order2{order: 2}
+    .order3{order: 3}
+    .order4{order: 4}
+    .order5{order: 5}
+    .order6{order: 6}
+}
+.icon-padding{
+    padding: 0 .25rem;
+}
+.mg-left{
+    margin-left: auto;
+}
